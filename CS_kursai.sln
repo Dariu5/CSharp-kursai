@@ -173,6 +173,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uzduotis2", "uzduotis2\uzdu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "metodai_pvz", "metodai_pvz\metodai_pvz.csproj", "{C6FEAD76-EA9A-46D5-84B5-29D7061B4857}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metodai_nuosavas", "Metodai_nuosavas\Metodai_nuosavas.csproj", "{68116EC7-6C23-452E-8C3B-F80E43146F2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -463,6 +465,10 @@ Global
 		{C6FEAD76-EA9A-46D5-84B5-29D7061B4857}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6FEAD76-EA9A-46D5-84B5-29D7061B4857}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6FEAD76-EA9A-46D5-84B5-29D7061B4857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68116EC7-6C23-452E-8C3B-F80E43146F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68116EC7-6C23-452E-8C3B-F80E43146F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68116EC7-6C23-452E-8C3B-F80E43146F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68116EC7-6C23-452E-8C3B-F80E43146F2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -540,6 +546,7 @@ Global
 		{193591AB-718C-416C-BCA6-35C46A146CD5} = {58865AD7-6613-4956-862A-4F388B28391C}
 		{1C94B655-85F1-4257-AA7A-F4EABDBADBE0} = {58865AD7-6613-4956-862A-4F388B28391C}
 		{C6FEAD76-EA9A-46D5-84B5-29D7061B4857} = {58865AD7-6613-4956-862A-4F388B28391C}
+		{68116EC7-6C23-452E-8C3B-F80E43146F2E} = {58865AD7-6613-4956-862A-4F388B28391C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {26EE2E69-D415-4FB0-BAA1-C96E2B6BB6CE}
