@@ -175,6 +175,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "metodai_pvz", "metodai_pvz\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metodai_nuosavas", "Metodai_nuosavas\Metodai_nuosavas.csproj", "{68116EC7-6C23-452E-8C3B-F80E43146F2E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14 klases", "14 klases", "{57A65ABD-FD1C-4577-803A-E7EE18849247}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
