@@ -31,7 +31,21 @@ namespace klase_Sarase
 
         }
 
+        public Suo ()
 
+
+        {
+
+            Console.WriteLine("Iveskite amziu: ");
+            Amzius = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Iveskite veisle: ");
+            Veisle = Console.ReadLine();
+
+            Console.WriteLine("Iveskite varda: ");
+            Vardas = Console.ReadLine();
+
+        }
 
     }
 }
