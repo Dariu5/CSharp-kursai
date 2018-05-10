@@ -16,5 +16,39 @@ namespace GUI_test
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Test");
+            //mbox
+           
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+           // MessageBox.Show(tekstolaukelis.Text);
+            var skaicius = Convert.ToInt32(tekstolaukelis.Text);
+            MessageBox.Show(skaicius.ToString());
+            tekstolaukelis.Text = "";
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var skaicius = Convert.ToInt32(perkelti.Text);
+            var forma = new GautiDuomenysForma(skaicius);
+            forma.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            using (var forma = new IvestiForma())
+            {
+                forma.ShowDialog();
+                if (forma.DialogResult == DialogResult.OK)
+                {
+                    label1.Text = forma.Tekstas;                    
+                }
+            }
+        }
     }
 }
