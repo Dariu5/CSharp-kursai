@@ -36,8 +36,9 @@ namespace failai3
 
                     foreach (var eilute in eilutes)
                     {
-
-                        Zmogai.Add(new Zmogus(eilute));
+                       
+                            Zmogai.Add(new Zmogus(eilute));                     
+                        
 
                     }
                 }
