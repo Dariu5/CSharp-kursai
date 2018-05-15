@@ -29,14 +29,22 @@ namespace Teleloto
         int temp_g;
         int temp_z;
 
+        int temp_index;
+
         public List<Eilute> Generuoti()
 
         {
             var rnd = new Random();
             List<Eilute> skaiciai = new List<Eilute>();
 
-          
 
+            var sar_M = generate_list(apatinis_rezis[0], virsutinis_rezis[0]);
+            var sar_J = generate_list(apatinis_rezis[1], virsutinis_rezis[1]);
+            var sar_R = generate_list(apatinis_rezis[2], virsutinis_rezis[2]);
+            var sar_G = generate_list(apatinis_rezis[3], virsutinis_rezis[3]);
+            var sar_Z = generate_list(apatinis_rezis[4], virsutinis_rezis[4]);
+
+            
             for (int ii = 0; ii < 5; ii++)
             {
 
@@ -49,19 +57,29 @@ namespace Teleloto
                     {
 
                         case 0:
-                            temp_m = rnd.Next(apatinis_rezis[i], virsutinis_rezis[i]);
+                            temp_index = rnd.Next(0, sar_M.Count - 1);
+                            temp_m = sar_M[temp_index];
+                            sar_M.RemoveAt(temp_index);
                             break;
                         case 1:
-                            temp_j = rnd.Next(apatinis_rezis[i], virsutinis_rezis[i]);
+                            temp_index = rnd.Next(0, sar_J.Count - 1);
+                            temp_j = sar_J[temp_index];
+                            sar_J.RemoveAt(temp_index);
                             break;
                         case 2:
-                            temp_r = rnd.Next(apatinis_rezis[i], virsutinis_rezis[i]);
+                            temp_index = rnd.Next(0, sar_R.Count - 1);
+                            temp_r = sar_R[temp_index];
+                            sar_R.RemoveAt(temp_index);
                             break;
                         case 3:
-                            temp_g = rnd.Next(apatinis_rezis[i], virsutinis_rezis[i]);
+                            temp_index = rnd.Next(0, sar_G.Count - 1);
+                            temp_g = sar_G[temp_index];
+                            sar_G.RemoveAt(temp_index);
                             break;
                         case 4:
-                            temp_z = rnd.Next(apatinis_rezis[i], virsutinis_rezis[i]);
+                            temp_index = rnd.Next(0, sar_Z.Count - 1);
+                            temp_z = sar_Z[temp_index];
+                            sar_Z.RemoveAt(temp_index);
                             break;
                         default:
                             break;
@@ -78,6 +96,26 @@ namespace Teleloto
 
             }
             return skaiciai;
+        }
+
+
+
+        List<int> generate_list(int start, int end)
+
+        {
+            List<int> sar = new List<int>();
+
+            for (int i = start; i < end+1; i++)
+            {
+
+                sar.Add(i);
+
+
+            }
+
+
+            return sar;
+
         }
 
     }
