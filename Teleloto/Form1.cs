@@ -26,11 +26,7 @@ namespace Teleloto
         {
             InitializeComponent();
 
-            for (int i = 1; i < 76; i++)
-            {
-                kamuoliukai.Add(i);
-
-            }
+            
 
 
         }
@@ -46,6 +42,15 @@ namespace Teleloto
             Kam_skaicius.Text = "0";
             uzbraukta = 0;
             dataGridView2.ClearSelection();
+
+            kamuoliukai.Clear();
+
+            for (int i = 1; i < 76; i++)
+            {
+                kamuoliukai.Add(i);
+
+            }
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -102,7 +107,7 @@ namespace Teleloto
 
 
                 button2.PerformClick();
-                int milliseconds = 500;
+                int milliseconds = 100;
                 Thread.Sleep(milliseconds);
                 dataGridView2.Refresh();
 
