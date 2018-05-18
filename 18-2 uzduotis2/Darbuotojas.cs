@@ -43,7 +43,7 @@ namespace _18_2_uzduotis2
 
             }
 
-            System.IO.StreamWriter writer = new System.IO.StreamWriter(path+"\\out.txt");
+            System.IO.StreamWriter writer = new System.IO.StreamWriter(path+"\\out.txt",true);
             writer.WriteLine("Vartotojo ID: " + ID);
             writer.WriteLine("Vartotojo Vardas: " + Name);
             writer.Flush();
