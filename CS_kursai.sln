@@ -233,6 +233,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20 Exceptions", "20 Excepti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20-1 uzduotis koldunai", "20-1 uzduotis koldunai\20-1 uzduotis koldunai.csproj", "{8AB5A145-66B2-43C3-8ACE-13F6BF7F2059}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20-2", "20-2\20-2.csproj", "{46ECA8AC-7C75-46D1-919C-48FF2505CE02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -611,6 +613,10 @@ Global
 		{8AB5A145-66B2-43C3-8ACE-13F6BF7F2059}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AB5A145-66B2-43C3-8ACE-13F6BF7F2059}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AB5A145-66B2-43C3-8ACE-13F6BF7F2059}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46ECA8AC-7C75-46D1-919C-48FF2505CE02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46ECA8AC-7C75-46D1-919C-48FF2505CE02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46ECA8AC-7C75-46D1-919C-48FF2505CE02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46ECA8AC-7C75-46D1-919C-48FF2505CE02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -711,6 +717,7 @@ Global
 		{9EB592C3-E2F4-435C-AD71-E814FF8B659D} = {9450F25B-CA84-4808-8FBE-F0EADC04B0A6}
 		{A492D65C-2AF7-4A4D-9665-330FA7BBCACD} = {9450F25B-CA84-4808-8FBE-F0EADC04B0A6}
 		{8AB5A145-66B2-43C3-8ACE-13F6BF7F2059} = {F1B0A7E4-E089-46AF-876B-008AD92B8263}
+		{46ECA8AC-7C75-46D1-919C-48FF2505CE02} = {F1B0A7E4-E089-46AF-876B-008AD92B8263}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {26EE2E69-D415-4FB0-BAA1-C96E2B6BB6CE}
