@@ -29,6 +29,17 @@ namespace _21_2_pvz
 
             string result = pavyzdys();
             string res = pvz(1);
+
+            int sk = 0;
+            bool ats = int.TryParse("1", out sk);
+
+
+            if (int.TryParse("1", out sk))
+            {
+                
+            }
+          
+
             PhotoFiltras filtras = new PhotoFiltras();
 
             photo.ApplyFilter(filtras.GraysScale);
