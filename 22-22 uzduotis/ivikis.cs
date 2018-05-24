@@ -28,12 +28,8 @@ namespace _22_22_uzduotis
         protected virtual void OnIvikisDone()
         {
 
-            if (IvikisDone != null)
-            {
 
-                IvikisDone(this, EventArgs.Empty);
-
-            }
+            IvikisDone?.Invoke(this, EventArgs.Empty);
 
         }
 
