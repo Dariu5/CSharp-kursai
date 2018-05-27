@@ -68,18 +68,62 @@ namespace _24_1_pvz
 
                         }
             */
-            sqlComand.CommandText = "SELECT * FROM students ORDER BY Name";
+          //  sqlComand.CommandText = "SELECT * FROM students ORDER BY Name";
 
             SqlDataReader reader = null;
 
+            // reader = sqlComand.ExecuteReader();  1.6
+
+            //  while (reader.Read())
+            //  {
+            //      Console.WriteLine(reader["Id"].ToString());
+            //      Console.WriteLine(reader["Name"]);
+            //     Console.WriteLine(reader["Surname"]);
+            // }
+
+            // reader.Close();
+
+
+            /*1.7*/
+            /*
+                        sqlComand.CommandText = "SELECT * FROM students WHERE Name LIKE '%as' AND Surname LIKE '%as' ORDER BY Surname";
+                        reader = sqlComand.ExecuteReader();
+
+                        while (reader.Read())
+                        {
+                            Console.WriteLine(reader["Id"].ToString());
+                            Console.WriteLine(reader["Name"]);
+                            Console.WriteLine(reader["Surname"]);
+                        }
+            */
+
+            /*1.8*/
+            /*
+                        sqlComand.CommandText = "SELECT * FROM student_address WHERE City = 'Kaunas'";
+                        reader = sqlComand.ExecuteReader();
+
+                        while (reader.Read())
+                        {                
+                            Console.WriteLine(reader["student_id"]);
+                            Console.WriteLine(reader["City"]);
+                        }
+
+                */
+
+            /*1.14*/
+
+            sqlComand.CommandText = "SELECT * FROM student_address INNER JOIN students on student_address.Id = students.Id WHERE City != 'NULL'";
             reader = sqlComand.ExecuteReader();
 
             while (reader.Read())
             {
-                Console.WriteLine(reader["Id"].ToString());
+                Console.WriteLine(reader["student_id"]);
                 Console.WriteLine(reader["Name"]);
-                Console.WriteLine(reader["Surname"]);
+                Console.WriteLine(reader["City"]);
             }
+
+
+
 
             sqlConnection.Close();
         }
