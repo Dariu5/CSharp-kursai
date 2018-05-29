@@ -67,8 +67,12 @@ namespace _27_1_pvz
             {
                 Console.WriteLine(item.Vardas);
             }
+            /*/*
 
-
+            IEnumerable<Zmogus> PVZ =
+                from zmon in zmones
+                join
+                */
         }
     }
 }
