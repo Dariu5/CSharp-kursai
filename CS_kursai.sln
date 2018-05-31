@@ -293,6 +293,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30 Ana", "30 Ana", "{803974
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ana", "Ana\Ana.csproj", "{435AAB4B-78A4-4EDE-BBBB-D594E88FEF4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bilietai_lektuvo", "bilietai_lektuvo\bilietai_lektuvo.csproj", "{9A43AACD-2139-47CD-8E73-E9D2D819F60B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -755,6 +757,10 @@ Global
 		{435AAB4B-78A4-4EDE-BBBB-D594E88FEF4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{435AAB4B-78A4-4EDE-BBBB-D594E88FEF4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{435AAB4B-78A4-4EDE-BBBB-D594E88FEF4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A43AACD-2139-47CD-8E73-E9D2D819F60B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A43AACD-2139-47CD-8E73-E9D2D819F60B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A43AACD-2139-47CD-8E73-E9D2D819F60B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A43AACD-2139-47CD-8E73-E9D2D819F60B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -876,6 +882,7 @@ Global
 		{57D3CA01-2E16-429A-8413-BC9EC0E51D69} = {9CCF12D8-CD4F-4DED-91E2-6F079E2332A4}
 		{D7B08969-96E2-4AD8-813A-D52D42A0F365} = {EEDF1904-9EB9-43CB-891D-24A050767369}
 		{435AAB4B-78A4-4EDE-BBBB-D594E88FEF4F} = {8039743F-8107-4CFA-A4F0-D95B491686A2}
+		{9A43AACD-2139-47CD-8E73-E9D2D819F60B} = {8039743F-8107-4CFA-A4F0-D95B491686A2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {26EE2E69-D415-4FB0-BAA1-C96E2B6BB6CE}
